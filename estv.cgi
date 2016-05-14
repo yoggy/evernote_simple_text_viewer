@@ -4,10 +4,10 @@
 # estv.cgi - Evernote Simple Text Viewer (for Publich Shared Note)
 #
 # parameters:
-#     path : the path included shared url 
+#     path : the path included shared note url 
 #
 # examples:
-#     shared url : https://www.evernote.com/shard/s2/sh/96854163-699b-41b8-9ade-a39a0026de16/d48bed79a31a0f13
+#     shared note url : https://www.evernote.com/shard/s2/sh/96854163-699b-41b8-9ade-a39a0026de16/d48bed79a31a0f13
 #       ↓
 #     http://example.com/path/to/cgi/estv.cgi?path=/shard/s2/sh/96854163-699b-41b8-9ade-a39a0026de16/d48bed79a31a0f13
 #
