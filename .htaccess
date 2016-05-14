@@ -1,0 +1,11 @@
+Options +ExecCGI
+
+AddHandler cgi-script .cgi
+DirectoryIndex estv.cgi
+
+<Files ~ "^\.ht">
+    Order allow,deny
+    Allow from none
+    Deny from all
+</Files>
+
