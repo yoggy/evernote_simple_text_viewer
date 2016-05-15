@@ -71,7 +71,6 @@ puts <<-EOS_HEAD
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="180">
     <title>#{CGI.escapeHTML(note_title)}</title>
     <style type="text/css">
       <!--
