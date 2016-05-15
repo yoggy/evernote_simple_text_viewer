@@ -72,20 +72,13 @@ puts <<-EOS_HEAD
   <head>
     <meta charset="UTF-8">
     <title>#{CGI.escapeHTML(note_title)}</title>
-    <style type="text/css">
-      <!--
-      body {
-        font-size: 2em
-        font-family: sans-serif
-      }
-      -->
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   </head>
   <body>
 EOS_HEAD
 
-print '<pre>'
+print '<pre><span class="note_text">'
 puts ennote_html
-puts '</pre></body></html>'
+puts '</span></pre></body></html>'
 
